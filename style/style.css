@@ -79,6 +79,13 @@ main {
 
 @media (max-width: 700px) {
   .introduction {
-    width: 400px;
+    width: 450px;
+
+  }
+  .introduction p {
+    width: 80%;
+  }
+  .introduction img {
+    width: 80%;
   }
 }
