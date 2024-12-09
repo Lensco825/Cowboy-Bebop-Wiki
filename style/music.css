@@ -17,6 +17,7 @@ main {
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     place-items: center;
     font-family: Inter;
+    row-gap: 80px;
 }
 
 .album-container img {
@@ -28,6 +29,15 @@ main {
     text-align: center;
 }
 
+@media (min-width: 1620px) {
+    main {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 50px;
+    }
+        
+
+}
 
 
 
