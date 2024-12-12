@@ -23,9 +23,25 @@ main {
 .backgroundStory {
     display: grid;
     place-items: center;
+
+    gap: 50px;
+}
+
+.storyPart {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 25px;
     text-align: center;
 }
 
+.storyPart img {
+    width: 350px;
+}
+
 .backgroundStory p {
-    max-width: 700px;
+    max-width: 500px;
+    min-width: 200px;
+    font-size: .9rem
 }
