@@ -57,8 +57,9 @@ a {
 }
 
 .orangeBtn {
-    color: #1C191D;
-    background-color: #D4593E;
+    color: #D4593E;
+    background-color: #1C191D;
+    right: 25px;
 }
 
 .blueBtn {
@@ -81,16 +82,21 @@ a {
 .cowgirlBtn {
   color: white;
   background: linear-gradient(-45deg, red, blue);
+  right: 50px;
+  bottom: 53px;
 }
 
 .tankTheBestBtn {
   background: linear-gradient(-45deg, #074080 50%, #FED903 50%);
   color: white;
+  right: 20px;
 }
 
 .goldBtn {
   background-color: #CD9F1F;
   color: #1D0F02;
+  bottom: 80px;
+  right:  55px;
 }
 
 img:hover ~ a, a:hover {
