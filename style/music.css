@@ -71,6 +71,28 @@ a {
   background-color: #381E1F;
 }
 
+.futureBtn {
+  color: #040303;
+  background-color: #F8F8F8;
+  bottom: 75px;
+  right:  65px;
+}
+
+.cowgirlBtn {
+  color: white;
+  background: linear-gradient(-45deg, red, blue);
+}
+
+.tankTheBestBtn {
+  background: linear-gradient(-45deg, #074080 50%, #FED903 50%);
+  color: white;
+}
+
+.goldBtn {
+  background-color: #CD9F1F;
+  color: #1D0F02;
+}
+
 img:hover ~ a, a:hover {
     opacity: 1;
 }
