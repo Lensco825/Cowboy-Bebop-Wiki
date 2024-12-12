@@ -46,7 +46,7 @@ main {
   cursor: pointer;
 }
 
-a {
+.album-container a {
   opacity: 0;
   transition: 0.3s
 }
