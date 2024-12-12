@@ -1,44 +1,86 @@
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    background-color: black;
-    color: white;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: black;
+  color: white;
 }
 
 .title {
-    font-family: Inter;
-    text-align: center;
+  font-family: Inter;
+  text-align: center;
 }
 
 main {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    place-items: center;
-    font-family: Inter;
-    row-gap: 80px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  place-items: center;
+  font-family: Inter;
+  row-gap: 80px;
+}
+
+.album-container {
+  position: relative;
 }
 
 .album-container img {
-    width: 220px;
+  width: 220px;
 }
 
 .albumTitle {
-    font-size: 1rem;
-    text-align: center;
+  font-size: 1rem;
+  text-align: center;
 }
+
+[name="play"] {
+  position: absolute;
+  z-index: 2;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 20px;
+  bottom: 54px;
+  right: 4px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+a {
+  opacity: 0;
+  transition: 0.3s
+}
+
+ .redBtn {
+    color: black;
+    background-color: #ff3d36;
+}
+
+.orangeBtn {
+    color: #1C191D;
+    background-color: #D4593E;
+}
+
+.blueBtn {
+  color: #104C9F;
+  background-color: #FDFEFB;
+}
+
+.vitaminBtn {
+  color: #EA382D;
+  background-color: #381E1F;
+}
+
+img:hover ~ a, a:hover {
+    opacity: 1;
+}
+
 
 @media (min-width: 1620px) {
-    main {
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        row-gap: 50px;
-    }
-        
-
+  main {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 50px;
+  }
 }
-
-
-
 
