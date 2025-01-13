@@ -24,7 +24,7 @@ main {
     display: grid;
     place-items: center;
 
-    gap: 50px;
+    gap:  50px;
 }
 
 .storyPart {
@@ -36,12 +36,51 @@ main {
     text-align: center;
 }
 
+.storyPart {
+    gap: 100px;
+    text-align: left;
+    animation: moveUp 0.5s ease-out;
+}
+
 .storyPart img {
-    width: 350px;
+    width: 600px;
+    animation: moveUp 0.6s ease-out;
+   
+}
+
+@keyframes moveUp {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .backgroundStory p {
     max-width: 500px;
     min-width: 200px;
-    font-size: .9rem
+    font-size: 1.3rem;
+}
+
+@media (max-width: 1230px) {
+    .backgroundStory p {
+        font-size: 1.1rem;
+    }
+    .storyPart img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 530px) {
+    .backgroundStory p {
+        font-size: .75rem;
+        text-align: center;
+        padding: 0 10px 0 10px;
+    }
+    .storyPart img {
+        width: 300px;
+    }
 }
