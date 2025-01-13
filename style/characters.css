@@ -40,6 +40,8 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(https://t4.ftcdn.net/jpg/02/15/94/83/360_F_215948377_kgIhNUy4X0iYsyUfYd9KKIViSPOxclbC.jpg);
+  background-size: contain;
 }
 
 .characterSelect {
