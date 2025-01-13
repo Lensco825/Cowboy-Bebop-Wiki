@@ -10,6 +10,8 @@ body {
 .title {
   font-family: Inter;
   text-align: center;
+  padding-top: 40px;
+
 }
 
 main {
