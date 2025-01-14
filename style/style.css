@@ -98,6 +98,23 @@ main {
   }
 }
 
+@media (max-width: 600px) {
+  
+  .navContent {
+    display: none;
+  }
+  .menuIcon {
+    display: block;
+  }
+  nav {
+    padding: none;
+  }
+  .responsiveNav {
+    top: 38px;
+  }
+}
+
+
 button p {
   text-shadow: 
   0 0 5px #0bf4f3,
