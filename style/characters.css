@@ -31,7 +31,7 @@ body {
 
 nav {
   position: fixed;
-  width: 100%;
+  
 }
 
 main {
@@ -111,10 +111,11 @@ input:checked {
     overflow: hidden;
     height: 0;
     display: none;
+    flex-wrap: wrap;
   }
 
   .dropdown-content p {
-    font-size: 1.2rem;
+    font-size: .8rem;
   }
 }
 
@@ -133,6 +134,24 @@ input:checked {
     overflow: hidden;
     height: 0;
     display: none;
+  }
+
+  .dropdown-content p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 420px) {
+  :root {
+    --select-width: 280px;
+  }
+
+  .characterSelect {
+    width: var(--select-width);
+  }
+
+  .dropdown-content {
+    width: var(--select-width);
   }
 
   .dropdown-content p {
