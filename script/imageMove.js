@@ -1,7 +1,6 @@
 const exampleImages = document.querySelectorAll('#exampleImage');
 const heroSection = document.querySelector('.hero-section');
-
-
+const scrollUpBtn = document.querySelector('.scrollBackUp');
 
 exampleImages.forEach(example => {
     const elementStyle = window.getComputedStyle(example);
@@ -19,3 +18,16 @@ exampleImages.forEach(example => {
     
 })
 
+window.addEventListener('scroll', () => {
+   scrollTop = window.scrollY;
+    if (scrollTop >= 1000) {
+        scrollUpBtn.classList.add('moveUpClass');
+    } else {
+        scrollUpBtn.classList.remove('moveUpClass');
+    }
+})
+
+
+scrollUpBtn.addEventListener('click', () => {
+    window.scrollTo(window.scrollY, 0); 
+})

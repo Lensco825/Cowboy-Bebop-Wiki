@@ -4,6 +4,7 @@ html, body {
     margin: 0;
     background-color: rgb(4, 2, 8);
     color: white;
+    position: relative;
 }
 
 .hero-section {
@@ -29,6 +30,7 @@ html, body {
 .hero-section img {
     position: absolute;
     width: 300px;
+    z-index: 5;
 }
 
 
@@ -78,4 +80,37 @@ html, body {
     .hero-section{
         font-size: .70rem;
     }
+}
+
+@keyframes moveUp {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 10%;
+        opacity: 1;
+    }
+}
+
+.moveUpClass {
+    animation: moveUp 0.3s ease-out;
+    bottom: 10%;
+}
+
+.scrollBackUp {
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    right: 5%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    font-size: 40px;
+    font-weight: light;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
 }
