@@ -19,12 +19,20 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   place-items: center;
+  align-items: center;
   font-family: Inter;
   row-gap: 80px;
 }
 
 .album-container {
   position: relative;
+  
+}
+
+.album {
+  display: grid;
+  place-items: center;
+  justify-content: center;
 }
 
 .album-container img {
