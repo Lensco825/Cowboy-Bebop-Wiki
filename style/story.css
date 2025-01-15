@@ -85,3 +85,19 @@ main {
         width: 300px;
     }
 }
+
+.cursor {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    transition: 200ms;
+}
+
+.cursor:hover {
+    width: 150px;
+    height: 150px;
+}
