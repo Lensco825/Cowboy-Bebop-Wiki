@@ -2,7 +2,6 @@ const CHAR_SELECTORS = document.querySelectorAll('.characterSelect');
 const DROPDOWNS = document.querySelectorAll('.dropdown-content');
 const cursor = document.querySelector('.cursor');
 
-
 console.log("Hello!");
 console.log(CHAR_SELECTORS);
 

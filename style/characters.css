@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Asset&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=VT323&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Rubik+Dirt&display=swap');
 
 
 :root {
@@ -11,6 +12,10 @@ body {
   margin: 0;
   height: 100%;
   position: relative;
+}
+
+.selection {
+  display: none;
 }
 
 .cursor {
@@ -33,6 +38,98 @@ nav {
   position: fixed;
   
 }
+
+ main .character {
+  width: 25%;
+  height: 100%;
+  background-size: cover;
+  border: solid 2px;
+  transition: 300ms;
+  flex: 1;
+  filter: grayscale(100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+}
+
+.character h1 {
+  position: absolute;
+  rotate: 90deg;
+  z-index: 2;
+  top: 50%;
+  font-family: Asset;
+  font-size: 3rem;
+}
+
+
+.character:hover {
+  flex-grow: 2;
+  filter: none;
+}
+
+.character:hover h1 {
+  display: none;
+}
+
+.character:hover > .pc-characterInfo {
+  display: block;
+}
+
+.character:nth-child(1) {
+  background-image: url("/images/spike.png");
+}
+
+.character:nth-child(1) .pc-characterInfo {
+  color: white;
+  background-color: darkgreen;
+}
+
+.character:nth-child(2) {
+  background-image: url("/images/jet.png");
+}
+
+.character:nth-child(2) .pc-characterInfo {
+  color: black;
+  background-color: #ffee32;
+}
+
+
+.character:nth-child(3) {
+  background-image: url("/images/faye.png");
+}
+
+.character:nth-child(3) .pc-characterInfo {
+  color: white;
+  background-color: purple;
+}
+
+
+.character:nth-child(4) {
+  background-image: url("/images/ed.png");
+}
+
+.character:nth-child(4) .pc-characterInfo {
+  color: black;
+  background-color: red;
+}
+
+
+
+.pc-characterInfo {
+  display: none;
+  background-color: gray;
+  font-family: Playfair Display;
+  width: 80%;
+  border-radius: 10px;
+  position: relative;
+  bottom: 20px;
+  padding: 8px;
+  font-weight: 700;
+}
+
+
 
 main {
   width: 100%;
@@ -94,6 +191,15 @@ main {
 
 input:checked {
   background-color: orange;
+}
+
+@media (max-width: 810px) {
+  main .character {
+    display: none;
+  }
+  .selection {
+    display: block;
+  }
 }
 
 @media (max-width: 950px) {
@@ -164,3 +270,4 @@ input:checked {
   display: flex;
   height: 400px;
 }
+
