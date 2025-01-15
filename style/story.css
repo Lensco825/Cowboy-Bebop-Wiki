@@ -1,103 +1,103 @@
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 body {
-    background-color: black;
-    color: white;
-    font-family: Playfair Display;
+  background-color: black;
+  color: white;
+  font-family: Playfair Display;
 }
 
 h1 {
-    padding-top: 40px;
-    text-decoration: underline;
-    text-underline-offset: 7px;
-    text-align: center;
+  padding-top: 40px;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  text-align: center;
 }
 
 main {
-    display: grid;
+  display: grid;
 }
 
 .backgroundStory {
-    display: grid;
-    place-items: center;
+  display: grid;
+  place-items: center;
 
-    gap:  50px;
+  gap: 50px;
 }
 
 .storyPart {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 25px;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 25px;
+  text-align: center;
 }
 
 .storyPart {
-    gap: 100px;
-    text-align: left;
-    animation: moveUp 0.5s ease-out;
+  gap: 100px;
+  text-align: left;
+  animation: moveUp 0.5s ease-out;
 }
 
 .storyPart img {
-    width: 600px;
-    animation: moveUp 0.6s ease-out;
-   
+  width: 600px;
+  animation: moveUp 0.6s ease-out;
 }
 
 @keyframes moveUp {
-    from {
-        transform: translateY(100px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .backgroundStory p {
-    max-width: 500px;
-    min-width: 200px;
-    font-size: 1.3rem;
+  max-width: 500px;
+  min-width: 200px;
+  font-size: 1.3rem;
 }
 
 @media (max-width: 1230px) {
-    .backgroundStory p {
-        font-size: 1.1rem;
-    }
-    .storyPart img {
-        width: 500px;
-    }
+  .backgroundStory p {
+    font-size: 1.1rem;
+  }
+  .storyPart img {
+    width: 500px;
+  }
 }
 
 @media (max-width: 530px) {
-    .backgroundStory p {
-        font-size: .75rem;
-        text-align: center;
-        padding: 0 10px 0 10px;
-    }
-    .storyPart img {
-        width: 300px;
-    }
+  .backgroundStory p {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 0 10px 0 10px;
+  }
+  .storyPart img {
+    width: 300px;
+  }
 }
 
 .cursor {
-    width: 50px;
-    height: 50px;
-    background-color: red;
-    position: fixed;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    mix-blend-mode: difference;
-    transition: 200ms;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  transition: 200ms;
 }
 
 .cursor:hover {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }

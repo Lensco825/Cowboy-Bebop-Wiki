@@ -1,11 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Asset&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=VT323&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Asset&family=Rubik+Dirt&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Asset&family=Rubik+Dirt&display=swap");
 
 :root {
   --select-width: 900px;
 }
-
 
 html,
 body {
@@ -26,7 +24,7 @@ body {
   position: absolute;
   transform: translate(-50%, -50%);
   z-index: 2;
-display: none;
+  display: none;
 }
 
 body {
@@ -36,10 +34,9 @@ body {
 
 nav {
   position: fixed;
-  
 }
 
- main .character {
+main .character {
   width: 25%;
   height: 100%;
   background-size: cover;
@@ -62,7 +59,6 @@ nav {
   font-family: Asset;
   font-size: 3rem;
 }
-
 
 .character:hover {
   flex-grow: 2;
@@ -95,7 +91,6 @@ nav {
   background-color: #ffee32;
 }
 
-
 .character:nth-child(3) {
   background-image: url("/images/faye.png");
 }
@@ -105,7 +100,6 @@ nav {
   background-color: purple;
 }
 
-
 .character:nth-child(4) {
   background-image: url("/images/ed.png");
 }
@@ -114,8 +108,6 @@ nav {
   color: black;
   background-color: red;
 }
-
-
 
 .pc-characterInfo {
   display: none;
@@ -128,8 +120,6 @@ nav {
   padding: 8px;
   font-weight: 700;
 }
-
-
 
 main {
   width: 100%;
@@ -150,7 +140,7 @@ main {
   font-family: Inter;
 }
 
-.characterSelect:nth-child(1):hover{
+.characterSelect:nth-child(1):hover {
   background-color: green;
   color: black;
 }
@@ -160,16 +150,15 @@ main {
   color: black;
 }
 
-.characterSelect:nth-child(5):hover{
+.characterSelect:nth-child(5):hover {
   background-color: red;
-  color: black;  
-}
-
-.characterSelect:nth-child(7):hover{
-  background-color: yellow;
   color: black;
 }
 
+.characterSelect:nth-child(7):hover {
+  background-color: yellow;
+  color: black;
+}
 
 .dropdown-content {
   width: var(--select-width);
@@ -221,7 +210,7 @@ input:checked {
   }
 
   .dropdown-content p {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -270,4 +259,3 @@ input:checked {
   display: flex;
   height: 400px;
 }
-

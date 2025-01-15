@@ -11,7 +11,6 @@ body {
   font-family: Inter;
   text-align: center;
   padding-top: 40px;
-
 }
 
 main {
@@ -26,7 +25,6 @@ main {
 
 .album-container {
   position: relative;
-  
 }
 
 .album {
@@ -58,35 +56,35 @@ main {
 
 .album-container a {
   opacity: 0;
-  transition: 0.3s
+  transition: 0.3s;
 }
 
- .redBtn {
-    color: black;
-    background-color: #ff3d36;
+.redBtn {
+  color: black;
+  background-color: #ff3d36;
 }
 
 .orangeBtn {
-    color: #D4593E;
-    background-color: #1C191D;
-    right: 25px;
+  color: #d4593e;
+  background-color: #1c191d;
+  right: 25px;
 }
 
 .blueBtn {
-  color: #104C9F;
-  background-color: #FDFEFB;
+  color: #104c9f;
+  background-color: #fdfefb;
 }
 
 .vitaminBtn {
-  color: #EA382D;
-  background-color: #381E1F;
+  color: #ea382d;
+  background-color: #381e1f;
 }
 
 .futureBtn {
   color: #040303;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   bottom: 75px;
-  right:  65px;
+  right: 65px;
 }
 
 .cowgirlBtn {
@@ -97,22 +95,22 @@ main {
 }
 
 .tankTheBestBtn {
-  background: linear-gradient(-45deg, #074080 50%, #FED903 50%);
+  background: linear-gradient(-45deg, #074080 50%, #fed903 50%);
   color: white;
   right: 20px;
 }
 
 .goldBtn {
-  background-color: #CD9F1F;
-  color: #1D0F02;
+  background-color: #cd9f1f;
+  color: #1d0f02;
   bottom: 80px;
-  right:  55px;
+  right: 55px;
 }
 
-img:hover ~ a, a:hover {
-    opacity: 1;
+img:hover ~ a,
+a:hover {
+  opacity: 1;
 }
-
 
 @media (min-width: 1620px) {
   main {
@@ -121,4 +119,3 @@ img:hover ~ a, a:hover {
     row-gap: 50px;
   }
 }
-

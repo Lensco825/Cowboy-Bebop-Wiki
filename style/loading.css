@@ -1,31 +1,31 @@
 .loadingScreen {
-    position: absolute;
-    z-index: 5;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .loadingScreen img {
-    width: 200px;
-    animation: loadAnimate 500ms steps(1);
-    animation-iteration-count: infinite;
+  width: 200px;
+  animation: loadAnimate 500ms steps(1);
+  animation-iteration-count: infinite;
 }
 @keyframes loadAnimate {
-    0% {
-        transform: rotate(-20deg);
-        /* border: solid blue; */
-    }
-    50% {
-        transform: rotate(20deg);
-        /* border: solid red; */
-    }
-    100% {
-        transform: rotate(-20deg);
-    }
+  0% {
+    transform: rotate(-20deg);
+    /* border: solid blue; */
+  }
+  50% {
+    transform: rotate(20deg);
+    /* border: solid red; */
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
 }
