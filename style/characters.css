@@ -74,7 +74,7 @@ main .character {
 }
 
 .character:nth-child(1) {
-  background-image: url("/images/spike.png");
+  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/925926525726597287/213C65E6B478624A5A3D87220B03D169F76D71BC/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
 }
 
 .character:nth-child(1) .pc-characterInfo {
@@ -83,7 +83,7 @@ main .character {
 }
 
 .character:nth-child(2) {
-  background-image: url("/images/jet.png");
+  background-image: url("https://m.media-amazon.com/images/M/MV5BY2RlMWE5MzEtNjQyZC00MzdiLWExYTYtOWEwMDE4OGRjOWUwXkEyXkFqcGc@._V1_UY1200_CR485,0,630,1200_AL_.jpg");
 }
 
 .character:nth-child(2) .pc-characterInfo {
@@ -92,7 +92,7 @@ main .character {
 }
 
 .character:nth-child(3) {
-  background-image: url("/images/faye.png");
+  background-image: url("https://64.media.tumblr.com/fc08a5e117febcb832c5b5a6466fca7b/b071beeec7f779ec-fd/s540x810/7faaf9029e463fa1076ef6a121e72470106b54cb.jpg");
 }
 
 .character:nth-child(3) .pc-characterInfo {
@@ -101,7 +101,7 @@ main .character {
 }
 
 .character:nth-child(4) {
-  background-image: url("/images/ed.png");
+  background-image: url("https://tiermaker.com/images/chart/chart/anime-characters-hairstyles-172966/edward-196jpg.png");
 }
 
 .character:nth-child(4) .pc-characterInfo {
