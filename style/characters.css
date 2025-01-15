@@ -74,7 +74,7 @@ main .character {
 }
 
 .character:nth-child(1) {
-  background-image: url("/images/spike.png");
+  background-image: url("/spike.png");
 }
 
 .character:nth-child(1) .pc-characterInfo {
@@ -83,7 +83,7 @@ main .character {
 }
 
 .character:nth-child(2) {
-  background-image: url("/images/jet.png");
+  background-image: url("/jet.png");
 }
 
 .character:nth-child(2) .pc-characterInfo {
@@ -92,7 +92,7 @@ main .character {
 }
 
 .character:nth-child(3) {
-  background-image: url("/images/faye.png");
+  background-image: url("/faye.png");
 }
 
 .character:nth-child(3) .pc-characterInfo {
@@ -101,7 +101,7 @@ main .character {
 }
 
 .character:nth-child(4) {
-  background-image: url("/images/ed.png");
+  background-image: url("/ed.png");
 }
 
 .character:nth-child(4) .pc-characterInfo {
