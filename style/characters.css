@@ -74,7 +74,7 @@ main .character {
 }
 
 .character:nth-child(1) {
-  background-image: url("/spike.png");
+  background-image: url("https://tharpfuneralhome.com/wp-content/uploads/2024/06/birds.png");
 }
 
 .character:nth-child(1) .pc-characterInfo {
@@ -83,7 +83,7 @@ main .character {
 }
 
 .character:nth-child(2) {
-  background-image: url("/jet.png");
+  background-image: url("https://m.media-amazon.com/images/M/MV5BY2RlMWE5MzEtNjQyZC00MzdiLWExYTYtOWEwMDE4OGRjOWUwXkEyXkFqcGc@._V1_UY1200_CR485,0,630,1200_AL_.jpg");
 }
 
 .character:nth-child(2) .pc-characterInfo {
@@ -92,7 +92,7 @@ main .character {
 }
 
 .character:nth-child(3) {
-  background-image: url("/faye.png");
+  background-image: url("https://tharpfuneralhome.com/wp-content/uploads/2024/06/birds.png");
 }
 
 .character:nth-child(3) .pc-characterInfo {
@@ -101,7 +101,7 @@ main .character {
 }
 
 .character:nth-child(4) {
-  background-image: url("/ed.png");
+  background-image: url("https://tharpfuneralhome.com/wp-content/uploads/2024/06/birds.png");
 }
 
 .character:nth-child(4) .pc-characterInfo {
