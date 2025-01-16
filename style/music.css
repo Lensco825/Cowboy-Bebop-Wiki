@@ -42,7 +42,7 @@ main {
   text-align: center;
 }
 
-[name="play"] {
+ion-icon {
   position: absolute;
   z-index: 2;
   padding: 8px;
@@ -54,63 +54,55 @@ main {
   cursor: pointer;
 }
 
-.album-container a {
-  opacity: 0;
-  transition: 0.3s;
-}
-
-.redBtn {
+#redBtn {
   color: black;
   background-color: #ff3d36;
 }
 
-.orangeBtn {
+#orangeBtn {
   color: #d4593e;
   background-color: #1c191d;
   right: 25px;
 }
 
-.blueBtn {
+#blueBtn {
   color: #104c9f;
   background-color: #fdfefb;
 }
 
-.vitaminBtn {
+#vitaminBtn {
   color: #ea382d;
   background-color: #381e1f;
 }
 
-.futureBtn {
+#futureBtn {
   color: #040303;
   background-color: #f8f8f8;
   bottom: 75px;
   right: 65px;
 }
 
-.cowgirlBtn {
+#cowgirlBtn {
   color: white;
   background: linear-gradient(-45deg, red, blue);
   right: 50px;
   bottom: 53px;
 }
 
-.tankTheBestBtn {
+#tankTheBestBtn {
   background: linear-gradient(-45deg, #074080 50%, #fed903 50%);
   color: white;
   right: 20px;
 }
 
-.goldBtn {
+#goldBtn {
   background-color: #cd9f1f;
   color: #1d0f02;
   bottom: 80px;
   right: 55px;
 }
 
-img:hover ~ a,
-a:hover {
-  opacity: 1;
-}
+
 
 @media (min-width: 1620px) {
   main {
